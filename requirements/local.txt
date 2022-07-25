@@ -1,0 +1,49 @@
+-r base.txt
+
+Werkzeug==2.0.2
+ipdb==0.13.9
+watchdog==0.7
+psycopg2-binary==2.9.2
+pydotplus==2.0.2
+
+# Testing
+# ------------------------------------------------------------------------------
+mypy==0.930
+mypy-extensions==0.4.3
+django-stubs==1.9.0
+django-stubs-ext==0.3.1
+pytest==6.2.5
+pytest-django==4.5.2
+pytest-sugar==0.9.4
+pkg_resources
+
+# Documentation
+# ------------------------------------------------------------------------------
+Sphinx==4.3.2
+sphinx-autobuild==2021.3.14
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+
+# Code quality
+# ------------------------------------------------------------------------------
+flake8==4.0.1
+flake8-isort==4.1.1
+coverage==6.2
+black==21.12b0
+pylint-django==2.4.4
+pylint-celery==0.3
+pre-commit==2.16.0
+
+# Django things
+# ------------------------------------------------------------------------------
+factory-boy==3.2.1
+django-coverage-plugin==2.0.2
+pytest-django==4.5.2
+django-debug-toolbar==3.2.4
+django-extensions==3.1.5
+
+Pillow==8.4.0

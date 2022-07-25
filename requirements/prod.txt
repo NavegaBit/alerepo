@@ -1,0 +1,14 @@
+-r base.txt
+
+# Production things
+# ------------------------------------------------------------------------------
+
+psycopg2
+gunicorn
+sentry-sdk
+dnspython
+uvicorn
+uvloop
+whitenoise
+httptools
+
